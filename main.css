@@ -1,0 +1,22 @@
+.footer{
+  text-align: center;
+  color: #0071C5;
+}
+
+.content{
+  position:absolute;
+  top:50px;
+  padding-top: 30px ;
+}
+
+.navbar-inverse{
+  background-color: #0071C5
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #87D0F1;
+}

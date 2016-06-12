@@ -1,0 +1,34 @@
+<nav class="navbar navbar-inverse navbar-fixed-top"> <!--establish the navbar.  fixed-top requires the body content to have padding-top of 50px-->
+  <div class="container"> <!--contain the links so they align with the rest of the page-->
+
+    <div class="navbar-header"> <!--the header contains the brand and the collapse button-->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsiblemenu"> <!--this button does the collapsing-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand"> <img src="Intel-white-xs.png"> </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="collapsiblemenu"> <!--anything within this div gets collapsed-->
+      <ul class="nav navbar-nav">  <!--style the links: nav gives them bulk and navbar-nav arranges them horizontally along the navbar-->
+        <li><a href="getAll.html">Get All</a></li>
+        <li><a href="getAllRaw.html">Get All Raw</a></li>
+        <li><a href="get.html">Get</a></li>
+        <li><a href="getRaw.html">Get Raw</a></li>
+        <li><a href="post.html">Post(add)</a></li>
+        <li><a href="getAll.html">Put(update)</a></li>
+      </ul>
+    </div>
+
+    <!-- <form class="navbar-form" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="search">
+      </div>
+      <button type="submit" class="btn btn-default">Go</button>
+    </form> -->
+
+    <button type="button" class="btn btn-default navbar-btn navbar-right" id="signinbutton">sign in</button>
+
+  </div>  <!--end of the container-->
+</nav>
